@@ -94,14 +94,12 @@ h2{
     display: flex;
     padding-left: 60px;
     padding-top: 20px;
-    margin-top: 2em;
+    margin-top: 1em;
     flex-wrap: wrap;
-    width: 440px;
+    width: 420px;
     background: url(img/li-plus.png) no-repeat 0 4px;
     background-size: 70px;
-    color: #425163;
-    
-    
+    color: #425163;  
 
 }
 
@@ -149,6 +147,7 @@ h2{
 
 .screenshots-form-span{
     color: #425163;
+    
 }
 
 
@@ -171,27 +170,31 @@ h2{
 .reviews-list {
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
+    width: 990px;
     justify-content: space-between;
-    list-style-image: url(images/book.png);
+    
 
+    
 }
 
 .reviews-list-item {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    width: 420px;
-    height: 120px;
-    margin: 0 2em 2em 2em;
+    width: 320px;
+    height: 110px;  
     border-style: solid;
     border-color: #ebebeb;
     border-width: 2px;
     background-color: #ebebeb;
+    margin-top: 0;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
     position: relative;
-    padding: 1em;
-    
+  
 }
+
 
 .reviews-list-item::before{
     content: "";
@@ -203,9 +206,29 @@ h2{
     position: absolute;
     left: -32px;
     top: 20px;
-   
+      
 }
 
+.reviews-list-item::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border: 40px solid #425163;;
+    border-radius: 100%;
+    position: absolute;
+    left: -100px;
+   
+    
+}
+
+.review-item-wrap{
+    margin-left: 6em;
+}
+
+.review-item-right{
+    margin-right: 2em;
+}
 
 .reviews-name{
     color: #b6b6b6;
@@ -348,6 +371,15 @@ h4{
     
 
 }
+
+@font-face{
+    
+    font-family: "Socialico";
+    src: url(img/Socialico.otf);
+    font-style: normal;
+    font-weight: normal;
+}
+
 .footer-title{
     color: white;
     display: flex;
@@ -424,29 +456,94 @@ h4{
     flex-direction: column;
     padding-right: 0;
     margin-right: 0;
-    margin-left: 4em;
+    margin-left: 30px;
     
+}
+
+.ACQ-img{
+   height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+    
+.email-png {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+
+.skype-img{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px; 
+}
+
+.phone-img{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px; 
 }
 
 .a-color{
     color: white;
+    text-decoration: none;
+    margin-bottom: 30px;
+
+}
+
+.a-skype:visited{
+    color: #c6c8ca ;
+}
+
+.a-askfm:visited{
+    color: #c6c8ca ;
+}
+
+.a-mail:visited{
+    color: #c6c8ca ;
+}
+
+.a-phone:visited{
+    color: #c6c8ca ;
+}
+
+.a-twitter:visited{
+    color: #c6c8ca ;
+}
+
+.a-facebook:visited{
+    color: #c6c8ca ;
+}
+
+.a-in:visited{
+    color: #c6c8ca ;
+}
+
+.a-google:visited{
+    color: #c6c8ca ;
+}
+
+.a-youtube:visited{
+    color: #c6c8ca ;
 }
 
 .footer-links{
-     display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-    width: 20em;
-    margin-left: 4em;
+    display: flex;
+    font-family: "Socialico";
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 60px;    
 }
 
 .footer-text{
     color: #425163;
     background-color: white;
-    margin-left: 0;
+    margin-left: 1em;
     max-height: 0;
     padding-right: 0;
-    height: 60px;
+    height: 14px;
     border-style: solid;
     border-color: black;
     border-width: 2px;
