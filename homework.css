@@ -403,6 +403,15 @@ h4{
     
    
 }
+
+input::placeholder,
+textarea::placeholder{
+    color: #425163;
+     font-family: Arial;
+}
+
+
+
 .input-nick{
     border-style: solid;
     border-color: white;
