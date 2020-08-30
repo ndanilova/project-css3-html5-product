@@ -1,7 +1,7 @@
 
 * {
     box-sizing: border-box;
-    max-width: 1500px;
+    max-width: 1200px;
     font-weight: 300;
 }
 
@@ -105,7 +105,7 @@ h1{
     padding-top: 20px;
     margin-top: 1em;
     flex-wrap: wrap;
-    width: 420px;
+    width: 500px;
     background: url(img/li-plus.png) no-repeat 0 4px;
     background-size: 70px;
     color: #425163;  
@@ -156,6 +156,7 @@ h1{
 
 .screenshots-form-span{
     color: #425163;
+    font-size: 25px;
     
 }
 
@@ -181,7 +182,7 @@ h1{
     flex-wrap: wrap;
     width: 990px;
     justify-content: space-between;
-    
+    margin-left: 100px;
 
     
 }
@@ -190,7 +191,7 @@ h1{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    width: 320px;
+    width: 350px;
     height: 110px;  
     border-style: solid;
     border-color: #ebebeb;
@@ -237,6 +238,7 @@ h1{
 
 .review-item-right{
     margin-right: 2em;
+    
 }
 
 .reviews-name{
