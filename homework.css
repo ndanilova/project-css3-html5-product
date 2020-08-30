@@ -63,6 +63,9 @@ h2{
     width: 50%;
 }
 
+
+
+
 .dignity {
     background-color: #F4F5F6;
     font-family: Arial;
@@ -349,7 +352,11 @@ h4{
     margin: 0 1em 0 1em;
 }
 
-
+.buy-button:hover{
+    background-color: #112d51 ;
+    border-color: #112d51 ;
+    text-decoration: underline;
+}
 
 .price {
     display: flex;
@@ -434,6 +441,12 @@ h4{
     width: 100px;
     margin-left: 125px;
     color: #425163;
+}
+
+.input-send:hover{
+    background-color: #112d51 ;
+    border-color: #112d51 ;
+    text-decoration: underline;
 }
 
 .footer-wrap{
@@ -527,6 +540,54 @@ h4{
 .a-youtube:visited{
     color: #c6c8ca ;
 }
+
+
+
+.a-skype:hover{
+    color: #112d51 ;
+    text-decoration: underline;
+}
+
+.a-askfm:hover{
+    color: #112d51 ;
+    text-decoration: underline;
+}
+
+.a-mail:hover{
+    color: #112d51 ;
+    text-decoration: underline;
+}
+
+.a-phone:hover{
+    color: #112d51 ;
+    text-decoration: underline;
+}
+
+.a-twitter:hover{
+    color: #112d51 ;
+    text-decoration: underline;
+}
+
+.a-facebook:hover{
+    color: #112d51 ;
+    text-decoration: underline;
+}
+
+.a-in:hover{
+    color: #112d51 ;
+    text-decoration: underline;
+}
+
+.a-google:hover{
+    color: #112d51 ;
+    text-decoration: underline;
+}
+
+.a-youtube:hover{
+    color: #112d51 ;
+    text-decoration: underline;
+}
+
 
 .footer-links{
     display: flex;
