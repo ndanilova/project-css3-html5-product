@@ -1,18 +1,21 @@
-
 * {
     box-sizing: border-box;
     max-width: 1200px;
     font-weight: 300;
+    font-family: Arial;
 }
 
-h2{
-    color: #425163; 
-    
-    
+h2 {
+    color: #425163;
+    padding-left:
+
 }
 
-h1{
-    font-size: 33px;
+h1 {
+    font-size: 55px;
+    margin-left: 120px;
+    margin-bottom: 0;
+    padding: 0;
 }
 
 .product {
@@ -23,34 +26,38 @@ h1{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 3em;
-    
+}
+
+.product-video {
+    padding-right: 100px;
 }
 
 .product-list {
     list-style: none;
-    margin: 0;
+    margin-left: 100px;
     padding: 0;
-    
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+
 }
 
-.product-list-item{
-       margin-bottom: 1em;
-      padding-left: 0;
+.product-list-item {
+    margin-bottom: 1em;
+    padding-left: 0;
     margin-left: 0;
-    
-    
+
+
 }
 
-.product-list-item:before{
+.product-list-item:before {
     content: "";
-   width: 20px;
+    width: 20px;
     height: 20px;
-  display: inline-block;
+    display: inline-block;
     background-image: url(img/check-mark.png);
     background-position: 0 0;
-  background-repeat: no-repeat;
-  background-size: contain;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .about {
@@ -62,11 +69,12 @@ h1{
     align-items: center;
     padding: 2em;
     justify-content: space-between;
-    
+
 }
 
 .about-wrap {
     width: 50%;
+    margin-left: 60px;
 }
 
 
@@ -79,7 +87,7 @@ h1{
     display: flex;
     flex-wrap: wrap;
     padding: 2em;
-    
+
 }
 
 .dignity-title {
@@ -95,11 +103,10 @@ h1{
     list-style: none;
     padding: 0;
     margin: 0;
-    
+
 }
 
 .dignity-list-item {
-
     display: flex;
     padding-left: 60px;
     padding-top: 20px;
@@ -108,14 +115,12 @@ h1{
     width: 500px;
     background: url(img/li-plus.png) no-repeat 0 4px;
     background-size: 70px;
-    color: #425163;  
+    color: #425163;
 
 }
 
 
-.dignity-item-wrap{
-
-}
+.dignity-item-wrap {}
 
 .screenshots {
     background-color: white;
@@ -123,8 +128,8 @@ h1{
     color: black;
     display: flex;
     flex-wrap: wrap;
-    padding: 2em;
-    
+    padding: 0;
+
 }
 
 .screenshots-title {
@@ -136,8 +141,8 @@ h1{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 41%;
-    
+    width: 500px;
+
 
 }
 
@@ -154,10 +159,11 @@ h1{
     margin-right: 20px;
 }
 
-.screenshots-form-span{
+.screenshots-form-span {
     color: #425163;
-    font-size: 25px;
-    
+    font-size: 20px;
+    font-family: Arial;
+
 }
 
 
@@ -180,19 +186,19 @@ h1{
 .reviews-list {
     display: flex;
     flex-wrap: wrap;
-    width: 990px;
+    width: 100%;
     justify-content: space-between;
-    margin-left: 100px;
 
-    
+
+
 }
 
 .reviews-list-item {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    width: 350px;
-    height: 110px;  
+    width: 400px;
+    height: 110px;
     border-style: solid;
     border-color: #ebebeb;
     border-width: 2px;
@@ -202,11 +208,14 @@ h1{
     margin-left: 0;
     margin-right: 0;
     position: relative;
-  
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: .5em;
+
 }
 
 
-.reviews-list-item::before{
+.reviews-list-item::before {
     content: "";
     display: block;
     width: 0;
@@ -216,37 +225,39 @@ h1{
     position: absolute;
     left: -32px;
     top: 20px;
-      
+
 }
 
-.reviews-list-item::after{
+.reviews-list-item::after {
     content: "";
     display: block;
     width: 0;
     height: 0;
-    border: 40px solid #425163;;
+    border: 40px solid #425163;
+    ;
     border-radius: 100%;
     position: absolute;
     left: -100px;
-   
-    
+
+
 }
 
-.review-item-wrap{
-    margin-left: 6em;
+.review-item-wrap {
+
+    margin-left: 130px;
 }
 
-.review-item-right{
-    margin-right: 2em;
-    
+.review-item-right {
+    margin-right: 80px;
+    flex-wrap: wrap;
 }
 
-.reviews-name{
+.reviews-name {
     color: #b6b6b6;
-  
-        
-      
-    
+
+
+
+
 }
 
 .buy {
@@ -260,6 +271,7 @@ h1{
 .buy-title {
     width: 100%;
     text-align: center;
+    margin-bottom: 80px;
 }
 
 .buy-standart,
@@ -269,100 +281,105 @@ h1{
     width: 33%;
     flex-direction: column;
     flex-wrap: wrap;
-    
-    
-    
+
+
+
 }
 
-.price{
+.price {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-end;
+
 }
 
 .buy-list-standart,
 .buy-list-premium,
 .buy-list-lux {
-   margin-right: 1em;
+    margin-right: 1em;
 }
 
-.buy-standart{
+.buy-standart {
     background-color: #425163;
-    margin: 0 1em 1em 1em;
+    margin: 0 0 30px 30px;
     padding: 0;
-    padding-bottom: 1em;
-    height: 35em;
+    height: 350px;
     color: white;
     border-radius: 5px;
     width: 350px;
-    
+
 }
 
 
-.buy-premium{
+.buy-premium {
     background-color: #425163;
-    margin: 1em 1em 1em 1em;
+    margin: 0 30px 30px 30px;
     padding: 0;
     padding-bottom: 1em;
-    height: 48em;
+    height: 470px;
     color: white;
     border-radius: 5px;
     width: 350px;
-    
+
 }
 
-.buy-lux{
+.buy-lux {
     background-color: #425163;
-    margin: 1em 1em 1em 1em;
+    margin: 0 0 30px 0;
     padding: 0;
-    padding-bottom: 1em;
-    height: 61em;
+    height: 590px;
     color: white;
     border-radius: 5px;
     width: 350px;
 }
 
-    
-h3{
+
+h3 {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     font-size: 35px;
-    padding-bottom: 0;
-    margin-bottom: 0;
+    padding: 0;
+    margin: 10px 0 0 0;
+    width: 100%;
 }
 
-h4{
+h4 {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: white;
     color: #425163;
-    height: 60px;
+    height: 85px;
     font-size: 50px;
-    padding-top: 0;
-    margin-top: .5em;
-   
-   
+    padding: 0;
+    margin: 10px 0 0 0;
+    outline-color: #425163;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-offset: -2px;
+
+
 }
 
-.buy-button{
+.buy-button {
     font-family: Arial;
     color: #425163;
-    font-size: 30px;
-    height: 2em;
+    font-size: 20px;
+    width: 320px;
+    height: 50px;
     border-style: solid;
     border-color: white;
     border-width: 5px;
     background-color: white;
     border-radius: 10px;
-    margin: 0 1em 0 1em;
+    margin: 0 0 0 14px;
 }
 
-.buy-button:hover{
-    background-color: #112d51 ;
-    border-color: #112d51 ;
+.buy-button:hover {
+    background-color: #112d51;
+    border-color: #112d51;
     text-decoration: underline;
 }
 
@@ -372,59 +389,69 @@ h4{
 }
 
 .buy-list-standart-item {
-    margin: 0 0 1em 0;
+
+    width: 300px;
+    margin: 0 0 10px 3px;
+}
+
+.buy-list-premium-item {
+    width: 300px;
+    margin: 0 0 10px 3px;
+    padding: 0;
+}
+
+.buy-list-lux-item {
+    width: 300px;
+    margin: 0 0 10px 3px;
+    padding: 0;
 }
 
 .footer {
     background-color: #425163;
-    font-family: Arial;
     color: white;
     padding-top: 2em;
     padding-left: 6em;
     padding-right: 6em;
-    
-    
+
+
 
 }
 
-@font-face{
-    
-    font-family: "Socialico";
-    src: url(img/Socialico.otf);
-    font-style: normal;
-    font-weight: normal;
+textarea {
+    resize: none;
 }
 
-.footer-title{
+
+.footer-title {
     color: white;
     display: flex;
     justify-content: center;
     width: 100%;
 }
 
-.form-footer{
+.form-footer {
     display: flex;
     flex-direction: column;
     margin-left: 16em;
     width: 350px;
     padding-bottom: 2em;
-    
-   
+
+
 }
 
-.color-caret{
+.color-caret {
     caret-color: #425163;
 }
 
 input::placeholder,
-textarea::placeholder{
+textarea::placeholder {
     color: #425163;
-     font-family: Arial;
+    font-family: Arial;
 }
 
 
 
-.input-nick{
+.input-nick {
     border-style: solid;
     border-color: white;
     border-width: 5px;
@@ -433,7 +460,7 @@ textarea::placeholder{
     margin-bottom: 1em;
 }
 
-.input-login{
+.input-login {
     border-style: solid;
     border-color: white;
     border-width: 5px;
@@ -442,8 +469,8 @@ textarea::placeholder{
     margin-bottom: 1em;
 }
 
-.message{
-     border-style: solid;
+.message {
+    border-style: solid;
     border-color: white;
     border-width: 5px;
     background-color: white;
@@ -452,7 +479,7 @@ textarea::placeholder{
     height: 130px;
 }
 
-.input-send{
+.input-send {
     border-style: solid;
     border-color: white;
     border-width: 5px;
@@ -464,26 +491,26 @@ textarea::placeholder{
     color: #425163;
 }
 
-.input-send:hover{
-    background-color: #112d51 ;
-    border-color: #112d51 ;
+.input-send:hover {
+    background-color: #112d51;
+    border-color: #112d51;
     text-decoration: underline;
 }
 
-.footer-wrap{
+.footer-wrap {
     display: flex;
     flex-direction: row;
 }
 
-.footer-links-contacts{
+.footer-links-contacts {
     display: flex;
     flex-direction: column;
-    
+
 }
 
 
-.footer-contacts{
-    
+.footer-contacts {
+
     width: 20em;
     display: flex;
     justify-content: flex-end;
@@ -491,15 +518,15 @@ textarea::placeholder{
     padding-right: 0;
     margin-right: 0;
     margin-left: 30px;
-    
+
 }
 
-.ACQ-img{
-   height: 20px;
+.ACQ-img {
+    height: 20px;
     width: 20px;
     margin-right: 10px;
 }
-    
+
 .email-png {
     height: 20px;
     width: 20px;
@@ -507,119 +534,146 @@ textarea::placeholder{
 }
 
 
-.skype-img{
+.skype-img {
     height: 20px;
     width: 20px;
-    margin-right: 10px; 
+    margin-right: 10px;
 }
 
-.phone-img{
+.phone-img {
     height: 20px;
     width: 20px;
-    margin-right: 10px; 
+    margin-right: 10px;
+
 }
 
-.a-color{
+.a-color {
     color: white;
     text-decoration: none;
     margin-bottom: 30px;
 
 }
 
-.a-skype:visited{
-    color: #c6c8ca ;
+.a-skype:visited {
+    color: #c6c8ca;
 }
 
-.a-askfm:visited{
-    color: #c6c8ca ;
+.a-askfm:visited {
+    color: #c6c8ca;
 }
 
-.a-mail:visited{
-    color: #c6c8ca ;
+.a-mail:visited {
+    color: #c6c8ca;
 }
 
-.a-phone:visited{
-    color: #c6c8ca ;
+.a-phone:visited {
+    color: #c6c8ca;
 }
 
-.a-twitter:visited{
-    color: #c6c8ca ;
+.a-twitter:visited {
+    color: #c6c8ca;
 }
 
-.a-facebook:visited{
-    color: #c6c8ca ;
+.a-facebook:visited {
+    color: #c6c8ca;
 }
 
-.a-in:visited{
-    color: #c6c8ca ;
+.a-in:visited {
+    color: #c6c8ca;
 }
 
-.a-google:visited{
-    color: #c6c8ca ;
+.a-google:visited {
+    color: #c6c8ca;
 }
 
-.a-youtube:visited{
-    color: #c6c8ca ;
+.a-youtube:visited {
+    color: #c6c8ca;
 }
 
 
 
-.a-skype:hover{
-    color: #112d51 ;
+.a-skype:hover {
+    color: #112d51;
     text-decoration: underline;
 }
 
-.a-askfm:hover{
-    color: #112d51 ;
+.a-askfm:hover {
+    color: #112d51;
     text-decoration: underline;
 }
 
-.a-mail:hover{
-    color: #112d51 ;
+.a-mail:hover {
+    color: #112d51;
     text-decoration: underline;
 }
 
-.a-phone:hover{
-    color: #112d51 ;
+.a-phone:hover {
+    color: #112d51;
+    text-decoration: underline;
+
+}
+
+
+
+.a-twitter:hover {
+    color: #112d51;
     text-decoration: underline;
 }
 
-.a-twitter:hover{
-    color: #112d51 ;
+.a-facebook:hover {
+    color: #112d51;
     text-decoration: underline;
 }
 
-.a-facebook:hover{
-    color: #112d51 ;
+.a-in:hover {
+    color: #112d51;
     text-decoration: underline;
 }
 
-.a-in:hover{
-    color: #112d51 ;
+.a-google:hover {
+    color: #112d51;
     text-decoration: underline;
 }
 
-.a-google:hover{
-    color: #112d51 ;
+.a-youtube:hover {
+    color: #112d51;
     text-decoration: underline;
 }
 
-.a-youtube:hover{
-    color: #112d51 ;
-    text-decoration: underline;
+@font-face{
+    font-family: 'Socialico';
+    font-style: normal;
+    font-weight: normal;
+    src: url(fonts/Socialico.otf)
+    
 }
 
+.link{
+    font-family: 'Socialico';
+    margin: 0;
+    padding: 0;
+    
+}
 
 .footer-links{
-    display: flex;
-    font-family: "Socialico";
+    font-size: 60px;
     width: 300px;
-    margin-left: 30px;
-    margin-top: 10px;
-    font-size: 60px;    
+    margin:0;
+    padding: 0;
+    tab-size: -4;
 }
 
-.footer-text{
+@font-face{
+    font-family: 'Socialico';
+    font-style: normal;
+    font-weight: normal;
+    src: url(fonts/Socialico.otf)
+    
+}
+
+
+
+.footer-text {
     color: #425163;
     background-color: white;
     margin-left: 1em;
@@ -630,18 +684,5 @@ textarea::placeholder{
     border-color: black;
     border-width: 2px;
     text-align: center;
-    font-size: 14px;       
+    font-size: 14px;
 }
-
-
-
-
-    
-
-
-
-
-
-    
-
-
