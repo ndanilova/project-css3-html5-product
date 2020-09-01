@@ -407,14 +407,12 @@ h4 {
 }
 
 .footer {
-    background-color: #425163;
+    background-color: #425163;  
+    font-family: Arial;
     color: white;
     padding-top: 2em;
     padding-left: 6em;
     padding-right: 6em;
-
-
-
 }
 
 textarea {
@@ -457,7 +455,8 @@ textarea::placeholder {
     border-width: 5px;
     background-color: white;
     border-radius: 5px;
-    margin-bottom: 1em;
+    margin-bottom: 15px;
+    height: 35px;
 }
 
 .input-login {
@@ -466,7 +465,8 @@ textarea::placeholder {
     border-width: 5px;
     background-color: white;
     border-radius: 5px;
-    margin-bottom: 1em;
+    margin-bottom: 15px;
+    height: 35px;
 }
 
 .message {
@@ -476,7 +476,7 @@ textarea::placeholder {
     background-color: white;
     border-radius: 5px;
     margin-bottom: 1em;
-    height: 130px;
+    height: 140px;
 }
 
 .input-send {
@@ -499,7 +499,7 @@ textarea::placeholder {
 
 .footer-wrap {
     display: flex;
-    flex-direction: row;
+    
 }
 
 .footer-links-contacts {
@@ -518,6 +518,7 @@ textarea::placeholder {
     padding-right: 0;
     margin-right: 0;
     margin-left: 30px;
+    font-size: 14px;
 
 }
 
@@ -547,10 +548,16 @@ textarea::placeholder {
 
 }
 
+.c-color {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 14px;
+
+}
+
 .a-color {
     color: white;
     text-decoration: none;
-    margin-bottom: 30px;
 
 }
 
@@ -641,7 +648,7 @@ textarea::placeholder {
 }
 
 @font-face{
-    font-family: 'Socialico';
+    font-family: "Socialico";
     font-style: normal;
     font-weight: normal;
     src: url(fonts/Socialico.otf)
@@ -649,25 +656,28 @@ textarea::placeholder {
 }
 
 .link{
-    font-family: 'Socialico';
+    font-family: "socialico";
     margin: 0;
     padding: 0;
     
 }
 
 .footer-links{
-    font-size: 60px;
+    display: flex;
+    font-family: "Socialico";
     width: 300px;
-    margin:0;
-    padding: 0;
-    tab-size: -4;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-size: 65px;    
 }
+
 
 @font-face{
     font-family: 'Socialico';
     font-style: normal;
     font-weight: normal;
-    src: url(fonts/Socialico.otf)
+    src: url(fonts/Socialico.otf);
     
 }
 
@@ -686,3 +696,6 @@ textarea::placeholder {
     text-align: center;
     font-size: 14px;
 }
+
+
+
