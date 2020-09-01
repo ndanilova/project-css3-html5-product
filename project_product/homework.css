@@ -407,7 +407,7 @@ h4 {
 }
 
 .footer {
-    background-color: #425163;
+    background-color: #425163;  
     font-family: Arial;
     color: white;
     padding-top: 2em;
@@ -499,7 +499,7 @@ textarea::placeholder {
 
 .footer-wrap {
     display: flex;
-
+    
 }
 
 .footer-links-contacts {
@@ -647,37 +647,40 @@ textarea::placeholder {
     text-decoration: underline;
 }
 
-@font-face {
+@font-face{
     font-family: "Socialico";
     font-style: normal;
     font-weight: normal;
     src: url(fonts/Socialico.otf)
+    
 }
 
-.link {
+.link{
     font-family: "socialico";
     margin: 0;
     padding: 0;
-
+    
 }
 
-.footer-links {
+.footer-links{
     display: flex;
     font-family: "Socialico";
     width: 300px;
     margin-left: 30px;
     margin-top: 10px;
     margin-bottom: 25px;
-    font-size: 65px;
+    font-size: 65px;    
 }
 
 
-@font-face {
+@font-face{
     font-family: 'Socialico';
     font-style: normal;
     font-weight: normal;
     src: url(fonts/Socialico.otf);
+    
 }
+
 
 
 .footer-text {
@@ -693,3 +696,6 @@ textarea::placeholder {
     text-align: center;
     font-size: 14px;
 }
+
+
+
