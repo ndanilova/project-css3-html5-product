@@ -21,7 +21,6 @@ h1 {
 .product {
     background-color: #425163;
     color: white;
-    font-family: Arial;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
