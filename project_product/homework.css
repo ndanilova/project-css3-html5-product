@@ -3,6 +3,14 @@
     max-width: 1200px;
     font-weight: 300;
     font-family: Arial;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+body{
+    margin-left: 0;
+    margin-right:0;
 }
 
 h2 {
@@ -13,7 +21,7 @@ h2 {
 
 h1 {
     font-size: 55px;
-    margin-left: 120px;
+    margin-left: 30px;
     margin-bottom: 0;
     padding: 0;
 }
@@ -28,13 +36,12 @@ h1 {
 }
 
 .product-video {
-    padding-right: 100px;
+    padding-right: 20px;
 }
 
 .product-list {
     list-style: none;
-    margin-left: 100px;
-    padding: 0;
+    padding: 0 0 0 20px;
     padding-bottom: 10px;
     margin-bottom: 30px;
 
@@ -291,13 +298,14 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-end;
+    margin-right: 50px;
 
 }
 
 .buy-list-standart,
 .buy-list-premium,
 .buy-list-lux {
-    margin-right: 1em;
+   
 }
 
 .buy-standart {
@@ -364,6 +372,8 @@ h4 {
 }
 
 .buy-button {
+    display: flex;
+    justify-content: center;
     font-family: Arial;
     color: #425163;
     font-size: 20px;
@@ -410,9 +420,8 @@ h4 {
     background-color: #425163;  
     font-family: Arial;
     color: white;
-    padding-top: 2em;
-    padding-left: 6em;
-    padding-right: 6em;
+    padding: 0;
+    
 }
 
 textarea {
@@ -425,14 +434,16 @@ textarea {
     display: flex;
     justify-content: center;
     width: 100%;
+    padding-top: 20px;
 }
 
 .form-footer {
     display: flex;
     flex-direction: column;
-    margin-left: 16em;
-    width: 350px;
-    padding-bottom: 2em;
+    justify-content: center;
+    width: ;
+    margin: 0 0 0 300px;
+    padding: 0;
 
 
 }
@@ -457,6 +468,7 @@ textarea::placeholder {
     border-radius: 5px;
     margin-bottom: 15px;
     height: 35px;
+    width: 400px;
 }
 
 .input-login {
@@ -467,6 +479,7 @@ textarea::placeholder {
     border-radius: 5px;
     margin-bottom: 15px;
     height: 35px;
+    width: 400px;
 }
 
 .message {
@@ -477,6 +490,7 @@ textarea::placeholder {
     border-radius: 5px;
     margin-bottom: 1em;
     height: 140px;
+    width: 400px;
 }
 
 .input-send {
@@ -487,7 +501,7 @@ textarea::placeholder {
     border-radius: 5px;
     margin-bottom: 1em;
     width: 100px;
-    margin-left: 125px;
+    margin-left: ;
     color: #425163;
 }
 
@@ -505,20 +519,23 @@ textarea::placeholder {
 .footer-links-contacts {
     display: flex;
     flex-direction: column;
+    width: 40%
 
 }
 
 
 .footer-contacts {
-
-    width: 20em;
     display: flex;
-    justify-content: flex-end;
     flex-direction: column;
-    padding-right: 0;
-    margin-right: 0;
-    margin-left: 30px;
-    font-size: 14px;
+    
+    
+    /*width: 20em;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 0;
+    margin: 0 0 0 0 ;
+    font-size: 14px;*/
 
 }
 
@@ -538,7 +555,7 @@ textarea::placeholder {
 .skype-img {
     height: 20px;
     width: 20px;
-    margin-right: 10px;
+   margin-right: 10px;
 }
 
 .phone-img {
@@ -549,9 +566,11 @@ textarea::placeholder {
 }
 
 .c-color {
+    
     color: white;
     text-decoration: none;
-    margin-bottom: 14px;
+    margin:0 200px 14px 0;
+    
 
 }
 
@@ -691,8 +710,8 @@ textarea::placeholder {
     padding-right: 0;
     height: 14px;
     border-style: solid;
-    border-color: black;
-    border-width: 2px;
+    border-color: white;
+    border-width: 0px;
     text-align: center;
     font-size: 14px;
 }
